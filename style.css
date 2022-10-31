@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: #24353f;
+}
+
+.nav__bar {
+    margin: 0 !important;
+    padding: 0;
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center;
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+
+.nav__title {
+    color: white;
+    font-size: 1.4rem;
+}
+
+.nav__button {
+    padding: .7rem 1rem;
+    font-size: 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #a7a7a7;
+    border: 1px solid #ffc107;
+    transition: all .5s;
+}
+
+.nav__button:hover {
+    background-color: #ffc107;
+    color: white;
+}
+
+.container {
+    width: 60%;
+    max-width: 60%;
+    margin: 4rem auto;
+    padding: 1rem 2rem;
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+
+.logout__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    max-width: 50%;
+    padding: 0 2rem;
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+    position: absolute;
+    left: 23%;
+    top: 40%;
+    transform: translateY(40%);
+}
+
+.logout__title {
+    color: #17a2b8;
+    font-size: 3rem;
+}
+
+.form {
+    width: 100%;
+    max-width: 100%;
+}
+
+.form__title {
+    margin: 1rem 0;
+    text-align: center;
+    color: #17a2b8;
+    font-size: 2.5rem;
+}
+
+.form__message {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form__input-group input {
+    width: 99%;
+    margin-top: 1.5rem;
+    padding: .5rem 0 .5rem .5rem;
+    font-size: 1rem;
+    background-color: transparent;
+    border: none;
+    outline: 1px solid silver;
+    border-radius: 3px;
+    color: silver;
+}
+
+.margin-bot {
+    margin-bottom: .5rem;
+}
+
+.big-margin-bot {
+    margin-bottom: 1rem;
+}
+
+.form__input-group input:focus {
+    outline: 1px solid #17a2b8;
+}
+
+.form__button {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: .7rem 0;
+    font-size: 1rem;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid #17a2b8;
+    color: #17a2b8;
+    background-color: transparent;
+    border-color: #17a2b8;
+    transition: all .5s ease;
+}
+
+.form__button:hover {
+    background-color: #17a2b8;
+    color: white;
+}
+
+#error {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1.3rem;
+}
+
+.error-email {
+    display: none;
+    margin-bottom: .5rem;
+    color: red;
+}
+
+.form__text {
+    text-align: center;
+    color: white;
+}
+
+.form__text a {
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+}
+
+.form__text a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 990px) {
+    .form__button {
+        padding: .7rem .2rem;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .form__text a {
+        display: block;
+        margin-top: .5rem;
+    }
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="container">
+        <form class="form" >
+            <h1 class="form__title">
+                Creat An Account
+            </h1>
+            <div class="form__input-group">
+                <input name="name" id="signupUsername" type="text" class="form__input margin-bot " placeholder="Enter your name" >
+            </div>
+            <div class="form__input-group">
+                <input name="email" id="signUpEmail" type="email" class="form__input margin-bot" placeholder="Enter your email" >
+                <div class="error-email"></div>
+            </div>
+            <div class="form__input-group">
+                <input name="password" id="signUpPassword" type="password" class="form__input big-margin-bot " placeholder="Enter your password">
+            </div>
+            <div id="error"></div>
+            <a id="registerButton" class="form__button">
+                Sign Up
+            </a>
+            <p class="form__text">
+                <span class="form__link">
+                    You have an account? <a id="signIn" >
+                        Sign In
+                    </a>
+                </span>
+            </p>
+        </form>
+    </div>
+
+    <script src="./JS/Register.js"></script>
+</body>
+</html>
